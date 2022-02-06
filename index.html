@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Js Practice</title>
+      <!-- Linking css -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+
+
+
+
+      <!-- Create a simple form -->
+      <!-- Capture forms data with javascript -->
+     <div class="contact">
+        <h2>Sample form</h2>
+         <form id="userForm">
+            <h3>What day is today?</h3>
+            <!-- Radio inputs you can't select more than one item -->
+            <!-- Radio groups -- must have one name to be a group -->
+            <input type="radio" name="day" value="saturday" >Saturday
+            <input type="radio" name="day" value="sunday" >Sunday
+            <input type="radio" name="day" value="monday" >Monday
+
+            
+            <h3>What is the current module in Moringa?</h3>
+            <input type="radio" name="module" value="python" >Python
+            <input type="radio" name="module" value="javascript" >Javascript
+            <input type="radio" name="module" value="bootstrap" checked>Bootstrap
+
+
+            <input type="text" name="username" autofocus placeholder="Enter your name" required>
+
+
+            <!-- <input type="submit" value="Send Data"> -->
+            <button type="submit">Send Data</button>
+         </form>
+
+         <div class="show-score">
+            <p class="score">Score goes here</p>
+         </div>
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+		<script src="js/script.js"></script>
+	</body>
+</html>

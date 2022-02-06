@@ -1,0 +1,10 @@
+.score {
+    font-size: 24px;
+    background-color: cyan;
+    padding: 40px;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}

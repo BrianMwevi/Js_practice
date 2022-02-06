@@ -1,0 +1,10 @@
+WHAT TO COVER
+
+1. Quick Recap -- console.log(), alert(), prompt(), confirm(), linking js files
+2. Change HTML content using Javascript
+3. Select HTML Elements From the DOM (Document Object Model) -- the html file(s)
+4. Add event listeners to Elements -- E.g when you click a button, what happens?
+5. Create a simple form and get submitted data using JS
+6. Bootstrap
+
+This is basically the whole concept of IP3
